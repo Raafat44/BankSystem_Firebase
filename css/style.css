@@ -1,0 +1,9 @@
+.spacingOne
+{
+    display: flex; 
+    justify-content: center;
+}
+.firstSec
+{
+    background-color: #0d6efd;
+}

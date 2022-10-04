@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank System</title>
+    <link rel="stylesheet" href="css/customer.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">BANKY.eg Bank</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="customer.html">Customers</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="transactions.html">Transactions</a>
+          </li>                     
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1 >Selected Customer Data</h1>
+  <div class="container">
+      <table>
+        <tbody class="cusdata">
+          <tr>
+              <th style="width: 300px;">ID</th>
+              <th style="width: 300px;">Name</th>
+              <th style="width: 300px;">Email</th>
+              <th style="width: 200px;">Balance</th>
+          </tr>
+        </tbody>
+      </table>
+      <h1 >Transfer Money</h1>
+  </div>
+  <table style="margin-bottom: 50px ;">
+    <tr>
+        <th style="width: 300px;">Sender</th>
+        <th style="width: 300px;">Reviever</th>
+        <th style="width: 200px;">Amount</th>
+    </tr>     
+    <tr >
+      <td ><input type="text" class="sender"></td>
+      <td><input type="text" class="reciever"></td>
+      <td><input type="number" class="amount"></td>
+    </tr> 
+  </table>
+  <div class="container" style="text-align: center;margin-bottom: 200px;">
+    <button style="width: 300px;" class=" transfer btn btn-success">Transfer</button>
+  </div>
+  <script src="js/bundle.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>    
+</body>
+</html>

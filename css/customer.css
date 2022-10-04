@@ -1,0 +1,33 @@
+h1
+{
+    padding-top: 30px;
+    color: #41594f;
+    text-align: center;
+}
+table
+{
+    text-transform: capitalize; 
+    margin: 50px auto;
+    border:2px solid #b3d7ff;
+    color: #41594f;
+    text-align: center;
+    box-shadow: -3px 5px 4px #b3d7d0; 
+}
+table tr:hover
+{
+    cursor: pointer;
+}
+table tr th 
+{
+   height: 50px;
+   width: 100px;
+   border:2px solid #b3d7ff;
+   font-size: 23px;
+}
+table tr td
+{
+    height: 50px;
+    width: 100px;
+    border:2px solid #b3d7ff;
+    font-size: 17px;
+ }
